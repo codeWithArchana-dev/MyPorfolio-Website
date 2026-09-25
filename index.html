@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#345ffd" />
+
+    <title>Archana Vishwakarma | Frontend Developer | React Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Archana Vishwakarma, a Frontend Developer and MCA student specializing in React.js, JavaScript, HTML, CSS, Bootstrap, and responsive web development."
+    />
+    <meta
+      name="keywords"
+      content="Archana Vishwakarma, Frontend Developer, React Developer, Web Developer, React.js, JavaScript, Portfolio, Noida, MCA, IGNOU"
+    />
+    <meta name="author" content="Archana Vishwakarma" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://archana-vishwakarma-portfolio.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://archana-vishwakarma-portfolio.vercel.app/" />
+    <meta property="og:title" content="Archana Vishwakarma | Frontend Developer | React Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Archana Vishwakarma, a Frontend Developer and MCA student specializing in React.js, JavaScript, HTML, CSS, Bootstrap, and responsive web development."
+    />
+    <meta property="og:image" content="https://archana-vishwakarma-portfolio.vercel.app/og-image.png" />
+    <meta property="og:image:alt" content="Archana Vishwakarma — Frontend Developer portfolio" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archana Vishwakarma | Frontend Developer | React Developer" />
+    <meta
+      name="twitter:description"
+      content="Frontend Developer specializing in React.js, JavaScript, and responsive web development."
+    />
+    <meta name="twitter:image" content="https://archana-vishwakarma-portfolio.vercel.app/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Archana Vishwakarma",
+        "jobTitle": "Frontend Developer",
+        "url": "https://archana-vishwakarma-portfolio.vercel.app/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Noida",
+          "addressRegion": "Uttar Pradesh",
+          "addressCountry": "India"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Indira Gandhi National Open University (IGNOU)"
+        },
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap", "Git", "GitHub"],
+        "sameAs": ["https://www.linkedin.com/in/codewitharchu"]
+      }
+    </script>
+
+    <script>
+      // Applied before paint so the correct theme renders on first frame (no flash).
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme')
+          var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches
+          if (dark) document.documentElement.classList.add('dark')
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

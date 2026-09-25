@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600" role="img" aria-label="Illustrated avatar of a female developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8eeff"/>
+      <stop offset="100%" stop-color="#d5dffb"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#345ffd"/>
+      <stop offset="100%" stop-color="#1f3ef3"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3350"/>
+      <stop offset="100%" stop-color="#241f33"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="480" height="600"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="480" height="600" fill="url(#bg)"/>
+
+    <!-- soft halo behind the figure -->
+    <circle cx="240" cy="300" r="185" fill="#ffffff" opacity="0.55"/>
+
+    <!-- hair, back layer: falls behind the shoulders -->
+    <path d="M240 108c-79 0-128 55-128 132 0 62 6 108-4 168 0 0 44 22 132 22s132-22 132-22c-10-60-4-106-4-168 0-77-49-132-128-132z" fill="url(#hair)"/>
+
+    <!-- shoulders / top -->
+    <path d="M240 404c-84 0-150 46-166 118-3 14-5 28-6 42h344c-1-14-3-28-6-42-16-72-82-118-166-118z" fill="url(#top)"/>
+    <!-- collar notch -->
+    <path d="M240 404c-16 0-31 2-45 5l45 58 45-58c-14-3-29-5-45-5z" fill="#ffffff" opacity="0.22"/>
+
+    <!-- neck -->
+    <path d="M208 344h64v56c0 18-14 30-32 30s-32-12-32-30z" fill="#e0a880"/>
+    <!-- neck shadow -->
+    <path d="M208 344h64v22c-12 10-25 15-40 15-9 0-17-2-24-5z" fill="#c9946f" opacity="0.55"/>
+
+    <!-- face -->
+    <ellipse cx="240" cy="262" rx="88" ry="102" fill="#f2c9a8"/>
+
+    <!-- ears -->
+    <ellipse cx="153" cy="268" rx="13" ry="20" fill="#e8b892"/>
+    <ellipse cx="327" cy="268" rx="13" ry="20" fill="#e8b892"/>
+
+    <!-- fringe / front hair -->
+    <path d="M240 132c-58 0-92 40-94 92-1 20 2 34 2 34 6-30 14-50 26-62 34 16 96 18 138-2 10 12 18 32 22 64 0 0 3-14 2-34-2-52-38-92-96-92z" fill="url(#hair)"/>
+    <!-- side strands framing the face -->
+    <path d="M148 214c-6 34-4 68 2 104 4-40 6-74 12-100z" fill="url(#hair)"/>
+    <path d="M332 214c6 34 4 68-2 104-4-40-6-74-12-100z" fill="url(#hair)"/>
+
+    <!-- eyebrows -->
+    <path d="M188 236c12-8 30-8 42-1" stroke="#2f2a3d" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M250 235c12-7 30-7 42 1" stroke="#2f2a3d" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+    <!-- eyes -->
+    <ellipse cx="209" cy="266" rx="9" ry="11" fill="#2f2a3d"/>
+    <ellipse cx="271" cy="266" rx="9" ry="11" fill="#2f2a3d"/>
+    <circle cx="212" cy="262" r="3" fill="#ffffff"/>
+    <circle cx="274" cy="262" r="3" fill="#ffffff"/>
+
+    <!-- nose -->
+    <path d="M240 280v18c0 4-3 7-8 8" stroke="#d9a37c" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+    <!-- smile -->
+    <path d="M219 322c12 11 30 11 42 0" stroke="#c4735f" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- cheeks -->
+    <ellipse cx="190" cy="298" rx="15" ry="9" fill="#e79a86" opacity="0.35"/>
+    <ellipse cx="290" cy="298" rx="15" ry="9" fill="#e79a86" opacity="0.35"/>
+  </g>
+</svg>

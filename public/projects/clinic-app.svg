@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="MediCare+ clinic app interface preview">
+  <defs>
+    <linearGradient id="chero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6fbf7"/>
+      <stop offset="100%" stop-color="#d3f1fb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#ffffff"/>
+
+  <!-- navbar -->
+  <rect width="800" height="58" fill="#0f766e"/>
+  <circle cx="38" cy="29" r="13" fill="#ffffff" opacity="0.9"/>
+  <path d="M38 22v14M31 29h14" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+  <text x="60" y="35" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#ffffff">MediCare+</text>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="11.5" fill="#d7f2ee">
+    <text x="330" y="34">Doctors</text>
+    <text x="392" y="34">Appointments</text>
+    <text x="486" y="34">Services</text>
+    <text x="546" y="34">About</text>
+    <text x="594" y="34">Contact</text>
+  </g>
+  <rect x="655" y="16" width="52" height="26" rx="13" fill="#ffffff" opacity="0.18"/>
+  <text x="681" y="33" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">Signup</text>
+  <rect x="715" y="16" width="48" height="26" rx="13" fill="#ffffff"/>
+  <text x="739" y="33" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0f766e" text-anchor="middle">Login</text>
+
+  <!-- hero -->
+  <rect y="58" width="800" height="196" fill="#e3f7f4"/>
+  <text x="52" y="128" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#134e4a">Welcome to Healthcare Clinic</text>
+  <text x="52" y="160" font-family="Inter, Segoe UI, sans-serif" font-size="14" fill="#3f7d76">Your health, our priority – providing the best care</text>
+  <text x="52" y="182" font-family="Inter, Segoe UI, sans-serif" font-size="14" fill="#3f7d76">for you &amp; your family.</text>
+  <rect x="52" y="200" width="152" height="38" rx="19" fill="#0f766e"/>
+  <text x="128" y="224" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Book Appointment</text>
+
+  <!-- decorative cross emblem -->
+  <circle cx="648" cy="156" r="66" fill="#ffffff" opacity="0.65"/>
+  <path d="M648 118v76M610 156h76" stroke="#0f766e" stroke-width="17" stroke-linecap="round"/>
+
+  <!-- services -->
+  <text x="52" y="296" font-family="Inter, Segoe UI, sans-serif" font-size="18" font-weight="800" fill="#134e4a">Our Services</text>
+
+  <g>
+    <rect x="52" y="318" width="222" height="140" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+    <circle cx="86" cy="352" r="17" fill="#ccfbf1"/>
+    <text x="72" y="382" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#134e4a">Expert Doctors</text>
+    <rect x="72" y="398" width="176" height="7" rx="3.5" fill="#e2e8f0"/>
+    <rect x="72" y="414" width="146" height="7" rx="3.5" fill="#e2e8f0"/>
+    <rect x="72" y="430" width="112" height="7" rx="3.5" fill="#e2e8f0"/>
+  </g>
+  <g>
+    <rect x="289" y="318" width="222" height="140" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+    <circle cx="323" cy="352" r="17" fill="#cffafe"/>
+    <text x="309" y="382" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#134e4a">Modern Facilities</text>
+    <rect x="309" y="398" width="176" height="7" rx="3.5" fill="#e2e8f0"/>
+    <rect x="309" y="414" width="146" height="7" rx="3.5" fill="#e2e8f0"/>
+    <rect x="309" y="430" width="112" height="7" rx="3.5" fill="#e2e8f0"/>
+  </g>
+  <g>
+    <rect x="526" y="318" width="222" height="140" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+    <circle cx="560" cy="352" r="17" fill="#dbeafe"/>
+    <text x="546" y="382" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#134e4a">Pharmacy Support</text>
+    <rect x="546" y="398" width="176" height="7" rx="3.5" fill="#e2e8f0"/>
+    <rect x="546" y="414" width="146" height="7" rx="3.5" fill="#e2e8f0"/>
+    <rect x="546" y="430" width="112" height="7" rx="3.5" fill="#e2e8f0"/>
+  </g>
+</svg>
