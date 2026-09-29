@@ -15,7 +15,7 @@
 export const profile = {
   name: 'Archana Vishwakarma',
   firstName: 'Archana',
-  roles: ['Frontend Developer', 'React Developer', 'Web Developer'],
+  roles: ['Frontend Developer', 'React Developer', 'Web Developer' , 'Javascript Developer' , 'Software Developer'],
   tagline: 'Frontend Developer | React Developer | Web Developer',
   location: 'Noida, Uttar Pradesh, India',
   shortLocation: 'Noida, India',
@@ -25,7 +25,7 @@ export const profile = {
   university: 'Indira Gandhi National Open University (IGNOU)',
 
   intro:
-    "Hi, I'm Archana Vishwakarma, a Frontend Developer passionate about building responsive and user-friendly web applications. I work with HTML, CSS, JavaScript, React.js, Bootstrap, and Git/GitHub. I'm continuously improving my skills by building real-world projects and currently looking for a Frontend Developer opportunity.",
+    "Hi, I'm Archana Vishwakarma, a Frontend Developer passionate about building responsive and user-friendly web applications. I work with HTML, CSS, JavaScript, React.js, Bootstrap, TailwindCSS and Git/GitHub. I'm continuously improving my skills by building real-world projects and currently looking for a Frontend Developer opportunity.",
 
   email: 'archana10122004@gmail.com',
 
@@ -67,7 +67,7 @@ export const skillGroups = [
   {
     title: 'Frontend Development',
     icon: 'Layout',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Bootstrap'],
+    skills: ['HTML5', 'CSS3', 'JavaScript' , 'Bootstrap' , 'TailwindCSS'],
   },
   {
     title: 'Version Control',
@@ -79,11 +79,18 @@ export const skillGroups = [
     icon: 'Wrench',
     skills: ['VS Code', 'Responsive Design', 'Chrome DevTools'],
   },
+
+  {
+    title: 'Database',
+    icon: 'DatabaseZap',
+    skills: ['SQL' , 'MySQL']
+  }, 
+
   {
     title: 'Currently Learning',
     icon: 'Sparkles',
     // TODO: confirm these are genuinely being learned; remove anything that isn't.
-    skills: ['Tailwind CSS', 'REST APIs'],
+    skills: ['React.js' , 'Python' , 'Django' ],
     muted: true,
   },
 ]
@@ -100,6 +107,36 @@ export const skillGroups = [
  * Replacing these with actual screenshots is a worthwhile upgrade.
  */
 export const projects = [
+
+    {
+    slug: 'zaptro-app',
+    title: 'Zaptro - E-Commerce Website',
+    featured: true,
+    summary:
+      'A modern e-commerce website with product browsing, cart management, and a smooth shopping experience, built with React and TailwindCSS.',
+    tech: ['React.js', 'TailwindCSS', 'HTML' , 'Vite'],
+    features: [
+      'Product browsing and category-based filtering',
+  'Product search functionality',
+  'Shopping cart management',
+  'User signup and login flow',
+  'Responsive e-commerce interface',
+  'Order placement and order summary',
+    ],
+    liveUrl: 'https://zaptro-eta.vercel.app/',
+    repoUrl: 'https://github.com/codeWithArchana-dev/Zaptro',
+    cover: '/projects/zaptro-app.svg',
+    caseStudy: {
+      overview:
+        'A modern e-commerce website built with React, Tailwind CSS, and JavaScript that provides users with a smooth and user-friendly way to browse products, manage their cart, and place orders.',
+      purpose:
+        'To provide users with a simple and convenient way to browse products, manage their shopping cart, and place orders through a smooth and user-friendly e-commerce experience.',
+      role: 'Designed and developed the complete frontend, including page layouts, reusable components, responsive design, product browsing, cart functionality, and user interactions.',
+      solutions: [],
+      learned: [],
+      screenshots: [],
+    },
+  },
   {
     slug: 'clinic-app',
     title: 'MediCare+ — Clinic App',
@@ -207,13 +244,27 @@ export const experience = {
  * into /public/certificates/.
  */
 export const certificates = [
+
+   {
+    id: 'uncodemy',
+    kind: 'certificate',
+    title: 'Java Full Stack Development',
+    organization: 'Uncodemy',
+    date: '25th june 2026',
+    result: '',
+    description: 'During the Java Full Stack training, I learned the fundamentals of Java, HTML, CSS, JavaScript, and frontend development. I also gained practical experience by working on frontend projects such as an Admin Dashboard and Zaptro e-commerce website.',
+    credentialId: '',
+    verifyUrl: '',
+    file: '/certificates/UncodemyCertificate.png',
+    icon: 'Award',
+  },
   {
     id: 'hackathon',
     kind: 'achievement',
     // TODO: use the actual hackathon name if it has one
     title: 'Hackathon Participation',
-    organization: 'TODO: College / University Name',
-    date: 'TODO: Year',
+    organization: 'Baba Saheb Bhimrao Ambedkar University',
+    date: '30th November 2023',
     // TODO: state the real outcome. If it was participation only, keep
     // "Participant". Never present participation as a win.
     result: 'Participant',
@@ -221,20 +272,77 @@ export const certificates = [
       'Participated in a college-level hackathon, collaborating on problem-solving and technology-based challenges.',
     credentialId: '',
     verifyUrl: '',
-    file: '/certificates/hackathon.jpg',
+    file: '/certificates/Hackathon.jpeg',
     icon: 'Trophy',
   },
+ 
+
   {
-    id: 'unacademy',
-    kind: 'certificate',
-    title: 'TODO: Exact Course / Certificate Name',
-    organization: 'Unacademy',
-    date: 'TODO: Issue Date',
-    result: '',
-    description: 'TODO: Short description of what was learned in this course.',
+    id: 'scienceDay',
+    kind: 'achievement',
+    // TODO: use the actual hackathon name if it has one
+    title: 'National Science Day',
+    organization: 'Baba Saheb Bhimrao Ambedkar University',
+    date: '28th February 2024',
+    // TODO: state the real outcome. If it was participation only, keep
+    // "Participant". Never present participation as a win.
+    result: 'Participant',
+    description:
+      'Participated in a Rangoli Competition on National Science Day at college and secured 1st place.',
     credentialId: '',
     verifyUrl: '',
-    file: '/certificates/unacademy.jpg',
+    file: '/certificates/scienceDay.jpeg',
+    icon: 'Trophy',
+  },
+
+   {
+    id: 'webmania2.0',
+    kind: 'achievement',
+    // TODO: use the actual hackathon name if it has one
+    title: 'WEBMANIA2.0',
+    organization: 'Baba Saheb Bhimrao Ambedkar University',
+    date: '30th April 2024',
+    // TODO: state the real outcome. If it was participation only, keep
+    // "Participant". Never present participation as a win.
+    result: 'Participant',
+    description:
+      ' Participated in a group-based Web Design Competition organized by the college , Collaborated with team members to design and present a web project.',
+    credentialId: '',
+    verifyUrl: '',
+    file: '/certificates/Webmania2.0.jpeg',
+    icon: 'Trophy',
+  },
+
+
+   {
+    id: 'webmania1.0',
+    kind: 'achievement',
+    // TODO: use the actual hackathon name if it has one
+    title: 'WEBMANIA1.O',
+    organization: 'Baba Saheb Bhimrao Ambedkar University',
+    date: '26th April 2023',
+    // TODO: state the real outcome. If it was participation only, keep
+    // "Participant". Never present participation as a win.
+    result: 'Participant',
+    description:
+      'Participated in a group-based Web Design Competition organized by the college , Collaborated with team members to design and present a web project.',
+    credentialId: '',
+    verifyUrl: '',
+    file: '/certificates/Webmania1.0.jpeg',
+    icon: 'Trophy',
+  },
+
+    {
+    id: 'Adca',
+    kind: 'certificate',
+    title: 'Advance Diploma in Computer Application',
+    organization: 'Institute of Computer Education',
+    date: '2021',
+    result: '',
+    description: 'Completed an Advanced Diploma in Computer Applications (ADCA), gaining practical knowledge of computer fundamentals, MS Office, internet and digital tools, database concepts, programming fundamentals, and web technologies. The course strengthened my understanding of software applications and basic computer-based problem solving.',
+    credentialId: '',
+    verifyUrl: '',
+    file: '/certificates/AdcaCertificate.jpeg',
     icon: 'Award',
   },
 ]
@@ -263,6 +371,15 @@ export const education = [
  * TODO: replace with real repository names and links.
  */
 export const repositories = [
+
+   {
+    name: 'Zaptro',
+    description: 'Zaptro e-commerce website with product browsing, cart management, user authentication, and order placement.',
+    language: 'JavaScript',
+    url: 'https://github.com/codeWithArchana-dev/Zaptro',
+    demo: 'https://zaptro-eta.vercel.app/',
+  },
+
   {
     name: 'Clinic-app',
     description: 'MediCare+ clinic website with appointment booking and user authentication.',
