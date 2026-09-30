@@ -36,7 +36,7 @@ export const profile = {
   },
 
   // Files live in /public.
-  resumePath: '/Archana-Vishwakarma-Resume.pdf',
+  resumePath: '/Archana_Resume.pdf',
   // Illustrated avatar stands in until a real photo is added. To use a photo,
   // drop it in /public and point this at it (e.g. '/archana.jpg').
   photoPath: '/avatar.svg',
